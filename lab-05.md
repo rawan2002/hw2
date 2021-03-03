@@ -1,14 +1,11 @@
 Lab 05 - Nobel laureates
 ================
 
-Team Name:
+Team Name:DS6
 
 Team Members - Name and Student ID
 
-1.  
-2.  
-3.  
-4.  
+1.rawansaad-2201002992
 
 ## Packages
 
@@ -17,6 +14,9 @@ Load tidyverse below
 ``` r
 library(tidyverse)
 ```
+
+    ## Warning in system("timedatectl", intern = TRUE): running command 'timedatectl'
+    ## had status 1
 
 ## Data
 
@@ -39,6 +39,8 @@ dim(nobel)
 ```
 
     ## [1] 935  26
+
+935obseration 26variables
 
 Each row represents information about a nobel prize winner.
 
