@@ -7,7 +7,7 @@ Team Name:DS6
 
 Team Members - Name and Student ID
 
-1.rawansaad-2201002992
+1.rawan saad-2201002992
 
 
 
@@ -98,7 +98,10 @@ Knit, *commit, and push your changes to GitHub with an appropriate commit messag
 ## But of those US-based Nobel laureates, many were born in other countries
 
 ```{r}
-
+nobel_living_science %>%
+ggplot(aes(x = country_us,y=category, fill =category)) +
+geom_bar(stat = "identity", position = "dodge") + 
+coord_flip()
 ```
 
 
