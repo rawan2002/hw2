@@ -7,7 +7,7 @@ Team Name:DS6
 
 Team Members - Name and Student ID
 
-1.rawan saad-2201002992
+1.Rawan Saad-2201002992
 
 
 
@@ -112,6 +112,7 @@ coord_flip()
 ```{r}
 nobel_living_science %>% filter(born_country_us == "USA") %>% count(born_country_us)
 ```
+Answer:243
 
 Knit, *commit, and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.d*
 
